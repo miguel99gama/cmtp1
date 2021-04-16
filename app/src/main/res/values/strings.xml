@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">cmtp1</string>
+    <string name="hint_word">Word...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
+    <string name="add_word">Add word</string>
+    <string name="title_activity_edit_nota">editNota</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="username">Username</string>
+    <string name="pass">Password</string>
+    <string name="login">Login</string>
+    <string name="notas">Personal Notes</string>
+    <string name="title">Title</string>
+    <string name="desc">Description</string>
+    <string name="titleInput">Insert the title</string>
+    <string name="descInput">Insert the discription</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
 </resources>

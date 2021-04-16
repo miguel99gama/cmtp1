@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">cmtp1</string>
+    <string name="username">Nome de Utilizador</string>
+    <string name="pass">Palavra Passe</string>
+    <string name="notas">Minhas Notas</string>
+    <string name="title">Titulo</string>
+    <string name="desc">Descricao</string>
+    <string name="titleInput">Insira o titulo</string>
+    <string name="descInput">Insira a descricao</string>
+    <string name="save">Guardar</string>
+    <string name="update">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="empty_not_saved">Nota não foi guardada porque contem campo vazio</string>
+</resources>

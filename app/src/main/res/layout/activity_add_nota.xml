@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/edit_title"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:minHeight="50dp"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/titleInput"
+        android:textSize="18sp"
+        android:inputType="textMultiLine"
+        android:maxLines="1"
+
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/desc"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/edit_desc"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:minHeight="48dp"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/descInput"
+        android:textSize="18sp"
+        android:scrollHorizontally="false"
+        android:gravity="fill_horizontal"
+        android:inputType="textMultiLine"
+        android:maxLines="6"/>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bluelight"
+        android:text="@string/save"
+        android:textColor="@color/buttonLabel" />
+
+</LinearLayout>

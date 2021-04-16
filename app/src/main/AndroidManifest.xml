@@ -9,7 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Cmtp1">
-        <activity android:name=".MainActivity">
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/button" />
+
+        <activity android:name=".MainActivity" />
+        <activity android:name=".notaEdit" />
+        <activity
+            android:name=".editNota"
+            android:label="@string/title_activity_edit_nota"
+            android:theme="@style/Theme.Cmtp1.NoActionBar" />
+        <activity android:name=".addNota" />
+        <activity android:name=".begin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
